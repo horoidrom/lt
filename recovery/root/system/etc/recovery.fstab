@@ -1,0 +1,6 @@
+# fstab
+system                                     /system          ext4                ro wait,slotselect,logical,first_stage_mount
+vendor                                     /vendor          ext4                ro wait,slotselect,logical,first_stage_mount
+product                                    /product         ext4                ro wait,slotselect,logical,first_stage_mount
+/dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
+
